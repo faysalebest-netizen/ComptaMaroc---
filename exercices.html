@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>التمارين - ComptaMaroc</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <h1>التمارين التفاعلية</h1>
+      <p>طبّق ما تعلمته مع تمارين محلولة خطوة بخطوة.</p>
+      <nav class="main-nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="cours.html">الدروس</a>
+        <a href="exercices.html" class="active">التمارين</a>
+        <a href="resume.html">الملخصات</a>
+        <a href="quiz.html">الاختبارات</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="exercise card">
+      <h2>تمرين 1: شراء معدات مكتبية</h2>
+      <p>شركة في الرباط اشترت معدات مكتبية بـ 12,000 درهم نقدًا.</p>
+      <button class="toggle-solution" data-target="solution-1">إظهار الحل</button>
+      <div id="solution-1" class="solution hidden">
+        <p><strong>التحليل:</strong> المعدات أصل يزيد => مدين. الصندوق ينقص => دائن.</p>
+        <p><strong>القيد:</strong> معدات 12,000 (مدين) | الصندوق 12,000 (دائن)</p>
+      </div>
+    </section>
+
+    <section class="exercise card">
+      <h2>تمرين 2: بيع بضائع على الحساب</h2>
+      <p>تم بيع بضائع بقيمة 8,500 درهم للزبون أحمد بالدين.</p>
+      <button class="toggle-solution" data-target="solution-2">إظهار الحل</button>
+      <div id="solution-2" class="solution hidden">
+        <p><strong>التحليل:</strong> الزبائن أصل يزيد => مدين. المبيعات تزيد => دائن.</p>
+        <p><strong>القيد:</strong> الزبائن 8,500 (مدين) | المبيعات 8,500 (دائن)</p>
+      </div>
+    </section>
+
+    <section class="exercise card">
+      <h2>تمرين 3: أداء أجور المستخدمين</h2>
+      <p>أدت الشركة أجور العمال قدرها 6,000 درهم بواسطة البنك.</p>
+      <button class="toggle-solution" data-target="solution-3">إظهار الحل</button>
+      <div id="solution-3" class="solution hidden">
+        <p><strong>التحليل:</strong> مصاريف الأجور تزيد => مدين. البنك ينقص => دائن.</p>
+        <p><strong>القيد:</strong> الأجور 6,000 (مدين) | البنك 6,000 (دائن)</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>استمر في التدريب، ثم اختبر نفسك عبر صفحة الاختبارات.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
