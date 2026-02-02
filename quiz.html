@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>الاختبارات - ComptaMaroc</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <h1>اختبارات قصيرة</h1>
+      <p>اختبر فهمك واحصل على تصحيح فوري.</p>
+      <nav class="main-nav">
+        <a href="index.html">الرئيسية</a>
+        <a href="cours.html">الدروس</a>
+        <a href="exercices.html">التمارين</a>
+        <a href="resume.html">الملخصات</a>
+        <a href="quiz.html" class="active">الاختبارات</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <form id="quiz-form" class="quiz card">
+      <h2>اختبار المحاسبة العامة</h2>
+
+      <div class="question">
+        <p>1) عند شراء سيارة نقدًا، نسجل الحساب التالي في المدين:</p>
+        <label><input type="radio" name="q1" value="a" /> الصندوق</label>
+        <label><input type="radio" name="q1" value="b" /> السيارة</label>
+        <label><input type="radio" name="q1" value="c" /> الموردون</label>
+      </div>
+
+      <div class="question">
+        <p>2) حساب الزبائن يُصنف ضمن:</p>
+        <label><input type="radio" name="q2" value="a" /> الأصول</label>
+        <label><input type="radio" name="q2" value="b" /> الخصوم</label>
+        <label><input type="radio" name="q2" value="c" /> المداخيل</label>
+      </div>
+
+      <div class="question">
+        <p>3) يجب أن يكون مجموع المدين:</p>
+        <label><input type="radio" name="q3" value="a" /> أكبر من الدائن</label>
+        <label><input type="radio" name="q3" value="b" /> أقل من الدائن</label>
+        <label><input type="radio" name="q3" value="c" /> مساوي للدائن</label>
+      </div>
+
+      <button type="submit" class="cta">تصحيح الإجابات</button>
+      <div id="quiz-result" class="quiz-result hidden"></div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>هل تريد المزيد؟ نضيف اختبارات جديدة كل أسبوع.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
